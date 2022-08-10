@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       Navbar
       <Home />
       <Shop />

@@ -97,11 +97,17 @@ body {
 .section-t {
   height: 50rem;
   border: 5px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .main-left-section {
   height: 30rem;
   border: 5px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .main-right-section {
@@ -112,4 +118,15 @@ body {
 .section-d {
   height: 50rem;
   border: 5px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.navbar {
+  height: 10rem;
+  border: 5px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
