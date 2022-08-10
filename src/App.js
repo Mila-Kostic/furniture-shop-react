@@ -5,7 +5,6 @@ import SectionD from "./components/section-down/SectionD";
 function App() {
   return (
     <div className="App">
-      Hello
       <SectionT />
       <SectionD />
     </div>

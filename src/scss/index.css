@@ -1,3 +1,36 @@
+/* SCSS RGB */
+/* SCSS Gradient */
 * {
-  background-color: darkgrey;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vx;
+}
+
+.section-t {
+  height: 50rem;
+  border: 5px solid green;
+}
+
+.main-left-section {
+  height: 30rem;
+  border: 5px solid red;
+}
+
+.main-right-section {
+  height: 30rem;
+  border: 5px solid yellow;
+}
+
+.section-d {
+  height: 50rem;
+  border: 5px solid blue;
 }/*# sourceMappingURL=index.css.map */
