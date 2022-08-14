@@ -102,7 +102,7 @@ body {
   margin: 50px;
 }
 .app-container {
-  width: 1200px;
+  width: 1440px;
   height: 100vx;
   border: 5px solid red;
   margin: 0 auto;
@@ -122,12 +122,27 @@ body {
   background-size: cover;
   height: 50rem;
   border: 5px solid rgba(224, 175, 160, 1);
-  width: 50%;
+  width: 58%;
+  display: flex;
+  .logo {
+    border: 5px solid red;
+    //display: flex;
+    width: 20%;
+  }
+  .navbar {
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+  }
 }
 .main-right-section {
   height: 50rem;
   border: 5px solid yellow;
-  width: 50%;
+  width: 42%;
+  text-align: start;
+  padding: 15rem;
 }
 .section-d {
   height: 30rem;
@@ -151,6 +166,8 @@ body {
   height: 30rem;
   border: 5px solid orange;
   width: 33%;
+  text-align: start;
+  padding: 9rem;
 }
 .pic-right {
   background-image: url("../img/image-about-light.jpg");
@@ -159,4 +176,21 @@ body {
   height: 30rem;
   border: 5px solid rgba(224, 175, 160, 1);
   width: 33%;
+}
+//
+.dicover {
+  height: 10vh;
+  width: 10vw;
+}
+.info-discover {
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid red;
+}
+
+.slider {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  border: 5px solid rosybrown;
 }

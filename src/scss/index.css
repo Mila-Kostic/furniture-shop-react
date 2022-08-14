@@ -21,7 +21,7 @@ body {
 }
 
 .app-container {
-  width: 1200px;
+  width: 1440px;
   height: 100vx;
   border: 5px solid red;
   margin: 0 auto;
@@ -43,13 +43,27 @@ body {
   background-size: cover;
   height: 50rem;
   border: 5px solid rgb(224, 175, 160);
-  width: 50%;
+  width: 58%;
+  display: flex;
+}
+.main-left-section .logo {
+  border: 5px solid red;
+  width: 20%;
+}
+.main-left-section .navbar {
+  border: 5px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
 }
 
 .main-right-section {
   height: 50rem;
   border: 5px solid yellow;
-  width: 50%;
+  width: 42%;
+  text-align: start;
+  padding: 15rem;
 }
 
 .section-d {
@@ -75,6 +89,8 @@ body {
   height: 30rem;
   border: 5px solid orange;
   width: 33%;
+  text-align: start;
+  padding: 9rem;
 }
 
 .pic-right {
@@ -84,4 +100,22 @@ body {
   height: 30rem;
   border: 5px solid rgb(224, 175, 160);
   width: 33%;
+}
+
+.dicover {
+  height: 10vh;
+  width: 10vw;
+}
+
+.info-discover {
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid red;
+}
+
+.slider {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  border: 5px solid rosybrown;
 }/*# sourceMappingURL=index.css.map */
