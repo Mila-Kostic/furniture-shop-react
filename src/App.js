@@ -4,9 +4,13 @@ import SectionD from "./components/section-down/SectionD";
 
 function App() {
   return (
-    <div className="App">
-      <SectionT />
-      <SectionD />
+    <div className="app-container">
+      <div>
+        <SectionT />
+      </div>
+      <div>
+        <SectionD />
+      </div>
     </div>
   );
 }

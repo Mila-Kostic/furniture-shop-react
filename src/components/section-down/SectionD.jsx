@@ -6,7 +6,7 @@ import PicsRight from "./PicsRight";
 function SectionD() {
   return (
     <div className="section-d">
-      SectionD
+      
       <PicsLeft />
       <Info />
       <PicsRight />

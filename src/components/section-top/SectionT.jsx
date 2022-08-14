@@ -5,7 +5,6 @@ import MainRightSection from "./right-section/MainRightSection";
 function SectionT() {
   return (
     <div className="section-t">
-      SectionT
       <MainLeftSection />
       <MainRightSection />
     </div>
