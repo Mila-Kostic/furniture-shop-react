@@ -105,6 +105,8 @@ body {
 .dicover {
   height: 10vh;
   width: 10vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .info-discover {
@@ -118,4 +120,5 @@ body {
   bottom: 0px;
   background-color: black;
   border: 5px solid rosybrown;
+  align-self: flex-end;
 }/*# sourceMappingURL=index.css.map */
