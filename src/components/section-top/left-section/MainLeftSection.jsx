@@ -5,7 +5,6 @@ import Navbar from "./navbar/Navbar";
 function MainLeftSection() {
   return (
     <div className="main-left-section">
-      <h1></h1>
       <Logo />
       <Navbar />
     </div>

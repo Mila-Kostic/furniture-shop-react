@@ -102,7 +102,7 @@ body {
   margin: 50px;
 }
 .app-container {
-  width: 1440px;
+  width: 1200px;
   height: 100vx;
   border: 5px solid red;
   margin: 0 auto;
@@ -130,9 +130,9 @@ body {
     width: 20%;
   }
   .navbar {
-    border: 5px solid red;
+    border: 5px solid rgb(0, 255, 115);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: start;
     width: 80%;
   }
@@ -143,6 +143,7 @@ body {
   width: 42%;
   text-align: start;
   padding: 15rem;
+  display: flex;
 }
 .section-d {
   height: 30rem;
@@ -179,10 +180,11 @@ body {
 }
 //
 .dicover {
-  height: 10vh;
-  width: 10vw;
+  height: 30vh;
+  width: 30vw;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  border: 5px solid rgb(97, 5, 59);
 }
 .info-discover {
   width: 20rem;
@@ -191,9 +193,15 @@ body {
 }
 
 .slider {
-  position: absolute;
+  //position: relative;
   bottom: 0px;
   background-color: black;
   border: 5px solid rosybrown;
-  align-self: flex-end;
+  align-self: flex-start;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid red;
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 0rem;
 }
