@@ -23,13 +23,11 @@ body {
 .app-container {
   width: 1200px;
   height: 100vx;
-  border: 5px solid red;
   margin: 0 auto;
 }
 
 .section-t {
   height: 50rem;
-  border: 5px solid green;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -42,16 +40,13 @@ body {
   background-position: center;
   background-size: cover;
   height: 50rem;
-  border: 5px solid rgb(224, 175, 160);
   width: 58%;
   display: flex;
 }
 .main-left-section .logo {
-  border: 5px solid red;
   width: 20%;
 }
 .main-left-section .navbar {
-  border: 5px solid rgb(0, 255, 115);
   display: flex;
   justify-content: space-evenly;
   align-items: start;
@@ -60,7 +55,6 @@ body {
 
 .main-right-section {
   height: 50rem;
-  border: 5px solid yellow;
   width: 42%;
   text-align: start;
   padding: 15rem;
@@ -69,7 +63,6 @@ body {
 
 .section-d {
   height: 30rem;
-  border: 5px solid blue;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -82,13 +75,11 @@ body {
   background-position: center;
   background-size: cover;
   height: 30rem;
-  border: 5px solid rgb(224, 175, 160);
   width: 33%;
 }
 
 .info {
   height: 30rem;
-  border: 5px solid orange;
   width: 33%;
   text-align: start;
   padding: 9rem;
@@ -99,7 +90,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 30rem;
-  border: 5px solid rgb(224, 175, 160);
   width: 33%;
 }
 
@@ -108,23 +98,19 @@ body {
   width: 30vw;
   display: flex;
   flex-flow: row wrap;
-  border: 5px solid rgb(97, 5, 59);
 }
 
 .info-discover {
   width: 20rem;
   height: 20rem;
-  border: 5px solid red;
 }
 
 .slider {
   bottom: 0px;
   background-color: black;
-  border: 5px solid rosybrown;
   align-self: flex-start;
   width: 10rem;
   height: 10rem;
-  border: 1px solid red;
   display: flex;
   margin-top: 4rem;
   margin-left: 0rem;
